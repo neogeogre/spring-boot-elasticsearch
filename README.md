@@ -13,7 +13,7 @@ in `$HOME/.sdkman/etc/config` set `sdkman_auto_env=true`
 Start the Elasticsearch `docker-compose` with:
 
 ```bash
-$ docker-compose up -d
+docker-compose up -d
 ``` 
 
 Then you can run the application with:
@@ -29,4 +29,3 @@ The integration tests rely on [testcontainers](https://www.testcontainers.org/),
 ```bash
 ./gradlew clean build
 ```
-
